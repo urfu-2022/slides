@@ -19,6 +19,14 @@
 
 /* Common */
 
+.slide-flex {
+    display: flex !important;
+}
+
+.reveal .object-fit-fill.slide-background[data-background-size=contain] video {
+    object-fit: fill !important;
+}
+
 .reveal .slides
 {
     font: 50px/1.2 sourcesanspro-light, sans-serif;
